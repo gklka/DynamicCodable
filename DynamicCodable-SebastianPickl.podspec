@@ -13,6 +13,7 @@ DESC
   s.swift_versions = '5.3'
   s.ios.deployment_target  = '9.0'
   s.osx.deployment_target  = '10.10'
+  s.watchos.deployment_target  = '8.0'
   s.source       = { :git => 'https://github.com/sebastianpixel/DynamicCodable.git', :tag => "#{s.version}" }
   s.source_files  = 'Sources/DynamicCodable/**/*.swift'
   s.test_spec 'Tests' do |test_spec|
